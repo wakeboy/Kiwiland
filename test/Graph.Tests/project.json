@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "Graph": "1.0.0-*",
+    "Moq": "4.6.38-alpha",
+    "FluentAssertions": "4.17.0",
+    "NUnit": "3.5.0",
+    "NUnitLite": "3.5.0",
+    "NUnit3TestAdapter": "3.6.0",
+    "dotnet-test-nunit": "3.4.0-beta-3"
+  },
+
+  "testRunner": "nunit",
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
